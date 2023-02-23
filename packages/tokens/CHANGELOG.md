@@ -1,5 +1,11 @@
 # @saturdayintokyo-ignite-ui/tokens
 
+## 2.2.0
+
+### Minor Changes
+
+- rename: `name` and `devDependencies` in all package.json
+
 ## 2.1.1
 
 ### Patch Changes
