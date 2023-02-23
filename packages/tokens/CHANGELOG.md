@@ -1,5 +1,11 @@
 # @saturdayintokyo-ignite-ui/tokens
 
+## 2.1.1
+
+### Patch Changes
+
+- remove test color from colors
+
 ## 2.1.0
 
 ### Minor Changes
