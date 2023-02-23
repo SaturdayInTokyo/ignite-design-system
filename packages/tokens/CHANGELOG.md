@@ -1,5 +1,11 @@
 # @saturdayintokyo-ignite-ui/tokens
 
+## 2.4.0
+
+### Minor Changes
+
+- Remove test color on tokens and change release and deploy from windows to ubuntu
+
 ## 2.3.0
 
 ### Minor Changes

@@ -6,12 +6,12 @@
   "scripts": {
     "dev": "turbo run dev --parallel",
     "build": "turbo run build",
-    "changeset":"changeset",
-    "version-packages":"changeset version",
-    "release": "turbo run build --filter=!docs && changeset publish"
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "turbo run build --filter=!@saturdayintokyo-ignite-ui && changeset publish"
   },
   "devDependencies": {
     "@changesets/cli": "^2.26.0",
-    "turbo": "^1.7.4"
+    "turbo": "^1.8.2"
   }
 }
