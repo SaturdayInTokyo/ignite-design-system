@@ -5,7 +5,9 @@ export const TooltipProvider = styled(Tooltip.Provider, {})
 
 export const TooltipContainer = styled(Tooltip.Root, {})
 
-export const TooltipTrigger = styled(Tooltip.Trigger, {})
+export const TooltipTrigger = styled(Tooltip.Trigger, {
+  marginTop: '$6',
+})
 
 export const TooltipContent = styled(Tooltip.Content, {
   color: '$gray100',
@@ -17,7 +19,7 @@ export const TooltipContent = styled(Tooltip.Content, {
   backgroundColor: '$gray900',
   borderRadius: '$sm',
   fontSize: '$sm',
-  marginTop: -10,
+  marginTop: -20,
   marginBottom: -20,
 })
 

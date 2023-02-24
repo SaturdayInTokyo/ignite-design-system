@@ -1,5 +1,11 @@
 # @saturdayintokyo-ignite-ui/react
 
+## 2.3.0
+
+### Minor Changes
+
+- remove: box from Tooltip.stories. add: Toast component
+
 ## 2.2.0
 
 ### Minor Changes
