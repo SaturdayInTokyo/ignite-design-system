@@ -1,15 +1,13 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import {
-  Box,
-  Text,
-  Checkbox,
-  CheckboxProps,
-} from '@saturdayintokyo-ignite-ui/react'
+import { Box, Tooltip, TooltipProps } from '@saturdayintokyo-ignite-ui/react'
 
 export default {
-  title: 'Form/Checkbox',
-  component: Checkbox,
-  args: {},
+  title: 'Calendar/Tooltip',
+  component: Tooltip,
+  args: {
+    trigger: 'open tooltip',
+    content: 'tooltip content',
+  },
   decorators: [
     (Story) => {
       return (
@@ -18,11 +16,10 @@ export default {
           css={{ display: 'flex', flexDirection: 'row', gap: '$2' }}
         >
           {Story()}
-          <Text size="sm">Accept terms of use</Text>
         </Box>
       )
     },
   ],
-} as Meta<CheckboxProps>
+} as Meta<TooltipProps>
 
-export const Primary: StoryObj<CheckboxProps> = {}
+export const Primary: StoryObj<TooltipProps> = {}
