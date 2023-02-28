@@ -1,0 +1,2 @@
+import{A as t}from"./index.528bbeb7.js";import"./index.85bc793c.js";import"./iframe.e570741d.js";import"./index.0e023d38.js";import"./jsx-runtime.59c6f02f.js";const p={title:"Data display/Avatar",component:t,args:{src:"https://github.com/saturdayintokyo.png",alt:"SaturdayInTokyo"},argTypes:{src:{control:{type:"text"}}}},c={},m={args:{src:void 0}},n=["Primary","WithFallback"];export{c as Primary,m as WithFallback,n as __namedExportsOrder,p as default};
+//# sourceMappingURL=Avatar.stories.04e0a5e7.js.map
